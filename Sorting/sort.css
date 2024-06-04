@@ -159,12 +159,15 @@ form:hover {
 
 .CTAs p a {
     font-weight: 900;
-    font-size: larger;
+    font-size: medium;
 }
 
-.CTAs p:hover {
+.CTAs p a:hover {
     background-color: #00FFFF;
     color: #000000;
+    padding: 5px;
+    border-radius: 10px;
+
 }
 
 
@@ -351,7 +354,7 @@ div ul [active="true"] {
     flex-direction: column;
     color: #00FFFF;
     background-color: rgb(0, 0, 0);
-    height: 13vh;
+    height: 13%;
     width: 100%;
     box-shadow:
         -1px -2px 3px #3ab1ad,
@@ -365,7 +368,7 @@ div ul [active="true"] {
     width: 100%;
     color: #00FFFF;
     font-family: 'Inconsolata', monospace;
-    font-size: large;
+    font-size: medium;
 }
 
 .Intro>p {
@@ -382,4 +385,5 @@ div ul [active="true"] {
     padding: 0;
     font-family: 'Inconsolata', monospace;
     gap: 0;
+    font-size: small;
 }
